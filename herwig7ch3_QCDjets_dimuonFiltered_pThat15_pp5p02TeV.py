@@ -1,3 +1,7 @@
+import FWCore.ParameterSet.Config as cms
+
+
+
 generator = cms.EDFilter("Herwig7GeneratorFilter",
     configFiles = cms.vstring(),
     crossSection = cms.untracked.double(-1),

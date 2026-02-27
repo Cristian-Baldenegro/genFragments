@@ -1,7 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
 from Configuration.Generator.Pythia8CommonSettings_cfi import *
-from Configuration.Generator.MCTunesRun3ECM13p6TeV.PythiaCP5Settings_cfi import * 
+from Configuration.Generator.MCTunes2017.PythiaCP5Settings_cfi import *
 
 _generator = cms.EDFilter("Pythia8GeneratorFilter",
     PythiaParameters = cms.PSet(
